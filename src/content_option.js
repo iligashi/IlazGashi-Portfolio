@@ -1,7 +1,13 @@
+import Poliklinika from "./Poliklinika.png"
+import image from "./image.png";
+import Protfolio from "./Portfolio.png";
+import RealEstate from "./RealEstate.png";
+import Programuesi from "./Programuesi.jpg";
+import RestaurantMenu from "./RestaurantMenu.png";
 const logotext = "Ilaz";
 const meta = {
     title: "Ilaz Gashi",
-    description: "I’m John Doe  Full stack devloper,currently working in Prishtina",
+    description: "I’m Ilaz Gashi  Full stack devloper,currently working in Prishtina",
 };
 
 const introdata = {
@@ -25,7 +31,7 @@ const worktimeline = [{
         date: "2020",
     },
     {
-        jobtitle: "Software Programming Instructor",
+        jobtitle: "General Engineer and Software Programming Instructor",
         where: "Digital School",
         date: "2024",
     },
@@ -42,28 +48,29 @@ const skills = [{
     },
     {
         name: "Javascript",
-        value: 90,
+        value: 100,
     },
     {
         name: "PHP",
-        value: 85,
+        value: 90,
     },
     {
         name: "MSQL",
-        value: 80,
+        value: 90,
     },
     {
         name: "JAVA",
         value: 70,
     },
     {
-        name: "Bootstrap",
+        name: "Tailwind CSS",
         value: 80,
     },
     {
         name: ".Net core",
         value: 70,
     },
+
 ];
 
 const services = [{
@@ -81,66 +88,38 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://sdmntpreastus2.oaiusercontent.com/files/00000000-3fe8-51f6-bdcc-026af46335bb/raw?se=2025-03-30T20%3A29%3A55Z&sp=r&sv=2024-08-04&sr=b&scid=66ef4d5b-9ebf-5198-a405-2780c7789459&skoid=2f36945c-3adc-4614-ac2b-eced8f672c58&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-30T01%3A22%3A14Z&ske=2025-03-31T01%3A22%3A14Z&sks=b&skv=2024-08-04&sig=HbGJQegacNGKksLL5LxneKYyKez14qtTWDpPGd9REfk%3D",
+        img: RealEstate,
         description: "Real Estate Marketplace, Technologies: React (TypeScript), .NET, MySQL, Bootstrap",
         link: "https://github.com/iligashi/Abode.git",
     },
     {
-        img: "https://sdmntpreastus2.oaiusercontent.com/files/00000000-a038-51f6-a395-7e8416eb8f1a/raw?se=2025-03-30T20%3A38%3A33Z&sp=r&sv=2024-08-04&sr=b&scid=23121af5-a055-5509-a534-a61f04e4c458&skoid=2f36945c-3adc-4614-ac2b-eced8f672c58&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-30T01%3A21%3A48Z&ske=2025-03-31T01%3A21%3A48Z&sks=b&skv=2024-08-04&sig=6yM%2BAbxZI0JsTljQwlzCY8qUZk6AyCVZb6psKRl%2B64M%3D",
+        img: Protfolio,
         description: "Personal Portfolio, Developed a personal website using React and Bootstrap to showcase projects and skills",
-        link: "https://github.com/iligashi",
+        link: "https://ilazgashi.netlify.app/",
      },
     {
-        img: "https://sdmntpreastus2.oaiusercontent.com/files/00000000-a038-51f6-a395-7e8416eb8f1a/raw?se=2025-03-30T20%3A38%3A33Z&sp=r&sv=2024-08-04&sr=b&scid=23121af5-a055-5509-a534-a61f04e4c458&skoid=2f36945c-3adc-4614-ac2b-eced8f672c58&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-30T01%3A21%3A48Z&ske=2025-03-31T01%3A21%3A48Z&sks=b&skv=2024-08-04&sig=6yM%2BAbxZI0JsTljQwlzCY8qUZk6AyCVZb6psKRl%2B64M%3D",
-        description: "QR Code Generator, Technologies: HTML, CSS, JavaScript, PHP, MySQL",
-        link: "https://github.com/iligashi/QRCODE_GENERATOR.git",
+        img: Poliklinika,
+        description: "Book appointments, explore medical services, and connect with trusted doctors at Poliklinikaa",
+        link: "https://poliklinikaa.netlify.app/",
     },
-    //  {
-    //     img: "https://picsum.photos/400/600/?grayscale",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/300/?grayscale",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/700/?grayscale",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
+      {
+        img: image,
+        description: "Fix your garden with our expert gardening services. From landscaping to maintenance, we transform your outdoor space into a lush paradise.",
+        link: "https://gardenfix.netlify.app/",
+    },
+     {
 
-    // {
-    //     img: "https://picsum.photos/400/600/?grayscale",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/300/?grayscale",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://sdmntpreastus2.oaiusercontent.com/files/00000000-a038-51f6-a395-7e8416eb8f1a/raw?se=2025-03-30T20%3A38%3A33Z&sp=r&sv=2024-08-04&sr=b&scid=23121af5-a055-5509-a534-a61f04e4c458&skoid=2f36945c-3adc-4614-ac2b-eced8f672c58&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-30T01%3A21%3A48Z&ske=2025-03-31T01%3A21%3A48Z&sks=b&skv=2024-08-04&sig=6yM%2BAbxZI0JsTljQwlzCY8qUZk6AyCVZb6psKRl%2B64M%3D",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/550/?grayscale",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://sdmntpreastus2.oaiusercontent.com/files/00000000-a038-51f6-a395-7e8416eb8f1a/raw?se=2025-03-30T20%3A38%3A33Z&sp=r&sv=2024-08-04&sr=b&scid=23121af5-a055-5509-a534-a61f04e4c458&skoid=2f36945c-3adc-4614-ac2b-eced8f672c58&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-30T01%3A21%3A48Z&ske=2025-03-31T01%3A21%3A48Z&sks=b&skv=2024-08-04&sig=6yM%2BAbxZI0JsTljQwlzCY8qUZk6AyCVZb6psKRl%2B64M%3D",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/700/?grayscale",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // }
+        img: Programuesi,
+        description: "Programuesi i Veturave program your car with our advanced vehicle programming services. From diagnostics to customizations, we enhance your driving experience.",
+        link: "https://programuesiiveturave.netlify.app/",
+    },
+        {
+        img: RestaurantMenu,
+        description: "Taste the flavors of our restaurant with our digital menu. Explore our diverse dishes, order online, and enjoy a delightful dining experience.",
+        link: "https://cartedujour.netlify.app/",
+    },
+
+  
     
 ];
 
@@ -148,8 +127,6 @@ const contactConfig = {
     YOUR_EMAIL: "ilazgashi258@gmail.com",
     YOUR_FONE: "(383)49 732 127",
     description: "Always ready to response at any time. If you have any questions about me contact me. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_h3ral8d",
     YOUR_TEMPLATE_ID: "template_0dzx88f",
     YOUR_USER_ID: "XjDQ16Moq4IOUH77j",
@@ -157,7 +134,7 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/iligashi",
-    facebook: "https://facebook.com/IlazGashi",
+    facebook: "https://www.facebook.com/ilaz.gashi.33",
     linkedin: "linkedin.com/in/ilaz-gashi-a2b868259/",
     twitter: "https://twitter.com",
 };
