@@ -4,6 +4,7 @@ import Protfolio from "./Portfolio.png";
 import RealEstate from "./RealEstate.png";
 import Programuesi from "./Programuesi.jpg";
 import RestaurantMenu from "./RestaurantMenu.png";
+import ILI from "./i.g.jpg";
 const logotext = "Ilaz";
 const meta = {
     title: "Ilaz Gashi",
@@ -18,7 +19,7 @@ const introdata = {
         third: "I develop mobile apps",
     },
     description: "Enthusiastic junior developer skilled in full-stack development. Eager to contribute to collaborative projects and grow within a professional development team.",
-    your_img_url: "https://i.imgur.com/IKGUMS1.jpeg",
+    your_img_url: ILI,
 };
 
 const dataabout = {
