@@ -16,7 +16,7 @@ const introdata = {
     animated: {
         first: "I love coding",
         second: "I code cool websites",
-        third: "I develop mobile apps",
+        third: "I develop CRM systems",
     },
     description: "Enthusiastic junior developer skilled in full-stack development. Eager to contribute to collaborative projects and grow within a professional development team.",
     your_img_url: ILI,
